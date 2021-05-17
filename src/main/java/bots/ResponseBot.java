@@ -100,7 +100,7 @@ public class ResponseBot{
                                                     + "G#{preguntas|ventas|ventasall|mensajes}\n"
                                                     + "Devolvera las Preguntas o Mensajes sin responder. En el caso de las ventas devuelve todas por el momento.\n"
                                                     + "Q{ID}#{TEXTO}\n"
-                                                    + "EJ: Q11#Efectivamente, sos un pelotudo. Saluda\n"
+                                                    + "EJ: Q11#Efectivamente, podes hacer la compra. Saluda\n"
                                                     + "Metodo para responder las Preguntas segun el ID\n"
                                                     + "M{ID}#{TEXTO}\n"
                                                     + "EJ: M11#Si necesitas otro , tenemos 2!\n"
