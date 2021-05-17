@@ -135,7 +135,7 @@ public class ResponseBot{
     
     static public void preparoRespuesta(String type,String id, String text) throws SQLException, InterruptedException, UnsupportedEncodingException, IOException{
             
-        Connection connThread = DriverManager.getConnection("jdbc:mariadb://127.0.0.1:3306/DATA","bs_operator","avanzit2011"); 
+        Connection connThread = DriverManager.getConnection("jdbc:mariadb://127.0.0.1:3306/DATA","USER","PASSWD"); 
         //connThread = DriverManager.getConnection(Data.getInstance().getDB_URL(),Data.getInstance().getUSER(),Data.getInstance().getPASS());
         
         Statement stmntThread = connThread.createStatement();
