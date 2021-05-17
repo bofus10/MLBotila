@@ -115,11 +115,9 @@ public class ResponseBot{
                                     }
                                 }
 
-                               //System.out.println("id: "+id);
                                offset = id+1;
                             }  
                         }
-                        //TeleBot.sendMessage("Respúesta", "694993539:AAF0tw-n_x3cYImubWE88I2LkQLhKOdlWIk", "-315765887");
                     }
             
            }
