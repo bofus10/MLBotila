@@ -110,8 +110,7 @@ public class ResponseBot{
                                                     + "EJ: V22#Gracias por tu Compra!\n"
                                                     + "T#{TOKEN}\n"
                                                     + "Deben entrar en la web que se envia, con al APP ID que se pasa y obtener el nuevo token. Luego responderlo:\n"
-                                                    + "T#APP_USR-6284609745736122-092813-dd11773957c963d3d51...\n"
-                                                    + "Al primero que se haga el caker pierde los ahorros! (L)";
+                                                    + "T#APP_USR-TOKEN..\n";
                                         TeleBot.PushMSG(help);
                                     }
                                 }
